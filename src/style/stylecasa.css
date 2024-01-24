@@ -1,0 +1,251 @@
+.casa {
+
+    position: relative;
+}
+
+/* varanda */
+
+.varanda {
+    position: absolute;
+    bottom: 116px;
+    left: 10px;
+
+}
+
+.lampada_varanda {
+    width: 28px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #000000;
+    position: absolute;
+    bottom: -58px;
+    left: 140px;
+}
+
+.luz_varanda {
+    width: 273px;
+    height: 102px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.628);
+    transition: all;
+}
+
+
+/* Quarto */
+
+.quarto_1 {
+    position: absolute;
+    bottom: 787px;
+    left: 268px;
+}
+
+.lampada_quarto {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #000000;
+    position: absolute;
+    left: 125px;
+    bottom: -132px;
+}
+
+.luz_quarto {
+    width: 257px;
+    height: 243px;
+    position: absolute;
+    background-color: #00000091;
+}
+
+/* cozinha */
+
+.cozinha {
+    position: absolute;
+    bottom: 787px;
+    left: 16px;
+}
+
+.lampada_cozinha {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #000000;
+    position: absolute;
+    left: 112px;
+    top: 92px;
+}
+
+.luz_cozinha {
+    width: 249px;
+    height: 216px;
+    position: absolute;
+    background-color: #00000091;
+}
+
+/* banheiro */
+
+.banheiro {
+    position: absolute;
+    bottom: 539px;
+    left: 354px;
+}
+
+.lampada_banheiro {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #000000;
+    position: absolute;
+    left: 103px;
+    top: 30px;
+}
+
+.luz_banheiro {
+    width: 230px;
+    height: 115px;
+    position: absolute;
+    background-color: #00000091;
+}
+
+/* Quarto 2 */
+
+.quarto_2 {
+    position: absolute;
+    bottom: 421px;
+    left: 270px;
+}
+
+.lampada_quarto_2 {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #000000;
+    position: absolute;
+    left: 121px;
+    top: 107px;
+}
+
+.luz_quarto_2 {
+    width: 253px;
+    height: 255px;
+    position: absolute;
+    background-color: #00000091;
+}
+
+/* Sala */
+
+.sala_1 {
+    position: absolute;
+    bottom: 563px;
+    left: 14px;
+}
+
+.sala_2 {
+    position: absolute;
+    bottom: 421px;
+    left: 14px;
+}
+
+.sala_3 {
+    position: absolute;
+    bottom: 538px;
+    left: 267px;
+
+}
+
+.lampada_sala {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #000000;
+    position: absolute;
+    left: 83px;
+    top: 46px;
+}
+
+.lampada_sala_2 {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #000000;
+    position: absolute;
+    left: 118px;
+    top: 122px;
+}
+
+.luz_sala {
+    width: 253px;
+    height: 142px;
+    position: absolute;
+    background-color: #00000091;
+}
+
+.luz_sala_2 {
+    width: 253px;
+    height: 300px;
+    position: absolute;
+    background-color: #00000091;
+}
+
+.luz_sala_3 {
+    width: 80px;
+    height: 110px;
+    position: absolute;
+    background-color: #00000091;
+}
+
+
+/* Switch  */
+
+.switch-container {
+    display: inline-block;
+    position: relative;
+}
+
+/* Estilizando a checkbox para torná-la invisível */
+.switch-checkbox {
+    display: none;
+}
+
+/* Estilizando o rótulo que representa o switch */
+.switch-label {
+    display: block;
+    width: 60px;
+    /* Aumentando a largura */
+    height: 30px;
+    /* Aumentando a altura */
+    background: rgb(2, 0, 36);
+    background: linear-gradient(270deg, #FFE588 2.33%, #FFC700 6.02%, rgba(137, 106, 0, 0.95) 13.94%, rgba(14, 10, 1, 0.90) 22.28%, rgba(0, 0, 0, 0.89) 79.42%, rgba(0, 0, 0, 0.89) 90.52%, rgba(0, 0, 0, 0.89) 119.05%);    border-radius: 15px;
+    /* Aumentando o raio da borda */
+    position: relative;
+    cursor: pointer;
+    transition: background 10s ease-out;
+    /* Adicionando transição com função de temporização "ease" */
+}
+
+/* Estilizando o botão (a parte móvel do switch) */
+.switch-button {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 26px;
+    /* Aumentando a largura do botão */
+    height: 26px;
+    /* Aumentando a altura do botão */
+    background-color: #dadada;
+    border-radius: 50%;
+    transition: left 0.8s;
+}
+
+/* Alterando a posição do botão quando a checkbox está marcada */
+.switch-checkbox:checked+.switch-label .switch-button {
+    transition: left 0.8s;
+    left: 32px;
+    background-color: #fff;
+}
+
+/* Alterando o background quando a checkbox está marcada */
+.switch-checkbox:checked+.switch-label {
+    transition: background-color 10s ease-in;
+    background: linear-gradient(270deg, #FEFEFE 0%, #FFCE1F 3.54%, rgba(236, 184, 0, 0.93) 40.2%, #F7C207 51.71%, #FFC700 74.44%, #4B3B00 92.33%, #271F00 94.95%, #000 100%); 
+}

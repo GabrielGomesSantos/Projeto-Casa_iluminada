@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Play:wght@700&family=Young+Serif&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="src/style/stylecasa.css">
+    <link rel="stylesheet" href="src/style/style.css">
+
+    <title>Planta Casa</title>
+</head>
+  
+<body>
+
+    <div class="titulo">
+        <h1>Controle De Iluminacão</h1>
+        <br>
+    </div>
+
+
+    <div class="conteudo">
+
+        <div class="casa">
+
+            <img class="img" src="src/img/Planta-Casa.jpg" alt="Planta da casa">
+
+
+            <div class="varanda">
+                <div class="lampada_varanda"></div>
+                <div class="luz_varanda"></div>
+            </div>
+
+            <div class="quarto_1">
+                <div class="lampada_quarto"></div>
+                <div class="luz_quarto"></div>
+            </div>
+
+            <div class="quarto_2">
+                <div class="lampada_quarto_2"></div>
+                <div class="luz_quarto_2"></div>
+            </div>
+
+            <div class="cozinha">
+                <div class="lampada_cozinha"></div>
+                <div class="luz_cozinha"></div>
+            </div>
+
+            <div class="banheiro">
+                <div class="lampada_banheiro"></div>
+                <div class="luz_banheiro"></div>
+            </div>
+
+            <div class="sala_1">
+                
+                <div class="lampada_sala"></div>
+                <div class="luz_sala"></div>
+                
+            </div>
+
+            <div class="sala_2">
+
+                <div class="lampada_sala_2"></div>
+                <div class="luz_sala_2"></div>
+            </div>
+
+            <div class="sala_3">
+
+                <div class="luz_sala_3"></div>
+            </div>
+        </div>
+        
+        
+        <div class="painel">
+
+            <h2>Painel De Controle</h2>
+
+        <!-- Estrutura HTML para o switch -->
+            <div class="switch-container">
+
+                <form id="seuFormId">
+                    <p>Varanda</p>
+                <input type="checkbox" class="switch-checkbox" id="mySwitch1">
+                <label for="mySwitch1" class="switch-label">
+                    <div class="switch-button"></div><br>
+                </label>
+
+                <p>Quarto Entrada</p>
+                <input type="checkbox" class="switch-checkbox" id="mySwitch2">
+                <label for="mySwitch2" class="switch-label">
+                    <div class="switch-button"></div><br>
+                </label>
+
+                <p>Sala</p>
+                <input type="checkbox" class="switch-checkbox" id="mySwitch3">
+                <label for="mySwitch3" class="switch-label">
+                    <div class="switch-button"></div><br>
+                </label>
+
+                <p>Banheiro</p>
+                <input type="checkbox" class="switch-checkbox" id="mySwitch4">
+                <label for="mySwitch4" class="switch-label">
+                    <div class="switch-button"></div><br>
+                </label>
+
+                <p>Cozinha</p>
+                <input type="checkbox" class="switch-checkbox" id="mySwitch5">
+                <label for="mySwitch5" class="switch-label">
+                    <div class="switch-button"></div><br>
+                </label>
+
+                <p>Quarto Fundos</p>
+                <input type="checkbox" class="switch-checkbox" id="mySwitch6">
+                <label for="mySwitch6" class="switch-label">
+                    <div class="switch-button"></div><br>
+                </label>
+
+                    <div id="desligarTodasBtn">
+                        <button type="reset" id="seuBotaoId">Desligar Todas</button>
+                    </div>
+
+                </form>
+            </div>
+
+        </div>
+
+    </div>
+    <script src="src/js/script.js"></script>
+</body>
+
+<footer>
+    <p>Trabalho Senai</p>
+</footer>
+</html>

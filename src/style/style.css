@@ -1,0 +1,61 @@
+.titulo {
+    text-align: center;
+    font-size: larger;
+    color: black;
+}
+
+body {
+    background: #43484D;
+    background-blend-mode: multiply;
+}
+
+.conteudo {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+
+.painel {
+    width: 500px;
+    height: 800px;
+    background-color: #C4FBF3;
+    border-radius: 15px;
+    margin-left: 20px;
+
+}
+
+.painel h2 {
+    text-align: center;
+}
+
+.painel p {
+    font-size: 25px;
+}
+
+.switch-container {
+    margin-left: 35px;
+}
+
+.switch-container p {
+    margin-left: -5px;
+}
+
+.painel button {
+    position: absolute;
+    width: 109px;
+    height: 47px;
+    top: 672px;
+    right: -302px;
+    text-decoration: none;
+}
+
+#seuBotaoId {
+    border: none;
+    outline: none;
+    /* Remover o contorno ao focar (pode não ser desejado em todos os casos) */
+    text-decoration: none;
+    /* Adicional: garantir que a decoração seja removida */
+
+    border-radius: 15px;
+    background-color: #87CEEB;
+}
